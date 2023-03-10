@@ -1,0 +1,19 @@
+Package: outsource
+Title: Outsource R package
+Version: 0.0.0.9000
+Date: 2023-03-10
+Authors@R: 
+    person("Stas", "Vlasov", , "nil", role = c("aut", "cre"))
+Description: The package provides its main function =outsource= that
+    evaluates some R script and binds what this script returns to ~.~
+    variable and then evaluates provided expression with this variable
+    added to the evaluation environment.
+License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
+        license
+URL: https://github.com/stasvlasov/outsource
+BugReports: https://github.com/stasvlasov/outsource/issues
+Encoding: UTF-8
+References: nil
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.0
+Suggests: tinytest
