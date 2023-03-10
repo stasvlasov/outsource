@@ -11,3 +11,32 @@ The package provides its main function `outsource` that evaluates some R script 
 
     devtools::install_github("stasvlasov/outsource")
 
+Suggested packages:
+
+<table id="org3f73a77" border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-right" />
+
+<col  class="org-left" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-left">name</th>
+<th scope="col" class="org-right">version</th>
+<th scope="col" class="org-left">comment</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td class="org-left"><a href="https://github.com/markvanderloo/tinytest/blob/master/pkg/README.md">tinytest</a></td>
+<td class="org-right">1.3.1</td>
+<td class="org-left">used for testing</td>
+</tr>
+</tbody>
+</table>
+

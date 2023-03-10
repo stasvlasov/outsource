@@ -11,6 +11,8 @@ Description: The package provides its main function =outsource= that
 License: MIT + file LICENSE
 URL: https://github.com/stasvlasov/outsource
 BugReports: https://github.com/stasvlasov/outsource/issues
+Suggests: 
+    tinytest (>= 1.3.1)
 Encoding: UTF-8
 References: nil
 Roxygen: list(markdown = TRUE)
