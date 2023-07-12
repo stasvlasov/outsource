@@ -12,6 +12,7 @@ outsource <- function(file_path, what_to_do
                     , return_if_error = NULL
                     , return_if_no_file = return_if_error
                     , bind_file_path = FALSE) {
+    env <- parent.frame()
     if(file.exists(file_path)){
         val <- source(file_path, chdir = TRUE)$value
         res <- eval(sys.call()[[3]]
@@ -20,7 +21,7 @@ outsource <- function(file_path, what_to_do
                             } else {
                                 list(. = val)
                             }
-                  , enclos = parent.frame()) |>
+                  , enclos = env) |>
             try()
         if(!inherits(res, "try-error")) {
             return(res)
